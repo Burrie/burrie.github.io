@@ -3,15 +3,7 @@
 
 /*Text Styles*/
 
-@font-face{
-font-family: Roboto;
-src: url(../fonts/Roboto-Regular.ttf)
-}
-
-@font-face{
-font-family: RobotoThin;
-src: url(../fonts/Roboto-Thin.ttf)
-}
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
 
 .l3 p {
 	color: white;
@@ -20,7 +12,8 @@ src: url(../fonts/Roboto-Thin.ttf)
 }
 
 h1 {
-	font-family: RobotoThin;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 	font-size: 48px;
 	color: hsl(0, 0%, 80%);
 	margin: 0;
@@ -39,7 +32,8 @@ footer {color: hsl(0, 0%, 40%);}
 /* Layout */
 
 body {
-	font-family: Roboto, Arial;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	background-color: hsl(0, 0%, 20%);
 	margin: 0;
 	padding: 0;
