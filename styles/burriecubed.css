@@ -76,12 +76,10 @@ body {
 #nav_main {
 	background-color: hsl(0, 0%, 40%);
 }
-
-#nav {
+#nav, #nav_mobile {
 	padding: 5px 15px;
 }
-
-#nav a {
+#nav a, #nav_mobile a{
 	padding: 5px 15px;
 	color: white;
 	background-color: hsl(0, 0%, 40%);
@@ -89,13 +87,18 @@ body {
 	text-decoration: none;
 	font-size: 1em;
 }
-
-#nav a:hover {
+#nav a:hover, #nav_mobile a:hover {
 	background-color: hsl(0, 0%, 30%);
 	color: #fff;
 	text-decoration: none;
 }
-
+#nav_mobile {
+	display: none;
+}
+#nav_mobile_toggle {
+	display: none;
+	float: right;
+}
 
 /*Content*/
 
@@ -154,25 +157,42 @@ body {
 	#logo {
 		height: 30px;
 	}
-	h1 {font-size: 2em;}
-	.l3 p {font-size: 1em;}
-	#banner_inset {width: 100%}
-	#page #nav {
+	h1 {
+		font-size: 2em;
+	}
+	.l3 p {
+		font-size: 1em;
+	}
+	#banner_inset {
+		width: 100%
+	}
+	#nav {
+		display: none;
+	}
+	#nav_mobile {
 		position: inherit;
-		padding: 15px 0px 1px 0px;
+		padding: 1px 0px;
 		text-align: left;
 	}
-	#page #nav a {
+	#nav_mobile a {
 		height: auto;
-		padding: 7px 10px 7px 10px;
-		margin: 0px 10px 5px 10px;
+		padding: 7px 10px;
+		margin: 1px 0px;
 		font-weight: bold;
 		font-size: 1em;
 		display: block;
 		background: hsl(0, 0%, 30%) url(../images/mobile_link_arrow.png) no-repeat right 50%;
 	}
-	#page #nav a:hover {
+	#nav_mobile a:hover {
 		color: #fff;
 		background-color: hsl(0, 0%, 20%);
+	}
+	#nav_mobile_toggle {
+	display: inline;
+	position: absolute;
+	right:0px;
+	top:0px;
+	padding:10px;
+	height: 30px;
 	}
 }
