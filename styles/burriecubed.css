@@ -5,23 +5,30 @@
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
 
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: hsl(0, 0%, 20%);
+	font-style: normal;
+  	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
 .l3 p {
 	color: white;
 	font-size: 1.25em;
 	text-align: right;
 }
-
 h1 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
 	font-size: 3em;
-	color: hsl(0, 0%, 80%);
+	color: hsl(0, 0%, 40%);
 	margin: 0;
 	padding: 0;
 }
 h2 {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
+	font-weight: 400;
 	font-size: 2em;
 	color: hsl(0, 0%, 40%);
 	margin: 0;
@@ -40,13 +47,6 @@ footer {
 }
 
 /* Layout */
-
-body {
-	font-family: 'Roboto', sans-serif;
-	background-color: hsl(0, 0%, 20%);
-	margin: 0;
-	padding: 0;
-}
 
 .l1 {
 	width: 100%;
@@ -122,7 +122,9 @@ body {
 	background-position: center 70%;
 	height: 150px;
 }
-
+#banner_text h1 {
+	color: hsl(0, 0%, 70%);
+}
 #content_main {
 	background-color: hsl(0, 0%, 95%);
 }
