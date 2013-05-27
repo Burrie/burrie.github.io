@@ -7,14 +7,14 @@
 
 .l3 p {
 	color: white;
-	font-size: 22px;
+	font-size: 1.25em;
 	text-align: right;
 }
 
 h1 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	font-size: 48px;
+	font-size: 3em;
 	color: hsl(0, 0%, 80%);
 	margin: 0;
 	padding: 0;
@@ -24,22 +24,26 @@ a {
 	color: hsl(0, 0%, 50%);
 	text-decoration: none;
 }
+a:hover {
+	text-decoration: underline;
+}
 
-a:hover {text-decoration: underline;}
-
-footer {color: hsl(0, 0%, 40%);}
+footer {
+	color: hsl(0, 0%, 40%);
+}
 
 /* Layout */
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
 	background-color: hsl(0, 0%, 20%);
 	margin: 0;
 	padding: 0;
 }
 
-.l1 { width: 100%; }
+.l1 {
+	width: 100%;
+}
 
 .l2 {
 	position: relative;
@@ -61,11 +65,9 @@ body {
 	background-image: url(../images/logo.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: 30px 0px;
+	background-origin: content-box;
 	display: block;
-	margin: 10px auto;
-	padding: 0;
-	height: 79px;
+	height: 80px;
 }
 
 
@@ -73,23 +75,22 @@ body {
 
 #nav_main {
 	background-color: hsl(0, 0%, 40%);
-	padding: 0;
-	margin: 0;
-	height: auto;
 }
 
-nav { padding: 5px 15px !important; }
+#nav {
+	padding: 5px 15px;
+}
 
-nav a {
+#nav a {
 	padding: 5px 15px;
 	color: white;
 	background-color: hsl(0, 0%, 40%);
 	height: 30px;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 1em;
 }
 
-nav a:hover {
+#nav a:hover {
 	background-color: hsl(0, 0%, 30%);
 	color: #fff;
 	text-decoration: none;
@@ -119,26 +120,49 @@ nav a:hover {
 
 /* Rules Sensitive to Screen Size */
 
+
+
+/* Medium Screen Rules */
+@media screen and (min-width: 501px) and (max-width: 800px) {
+	h1 {
+		font-size: 2em;
+	}
+	.l3 p {
+		font-size: 1.2em;
+	}
+	#logo {
+		height: 50px;
+	}
+	#banner_home {
+		height: 225px;
+	}
+	#banner_inset {
+		width: 80%;
+	}
+}
+
 /* Small Screen Rules */
 @media screen and (min-width: 150px) and (max-width: 500px) {
-	#banner {height: 100px;}
+	#banner {
+		height: 100px;
+	}
 	#banner_home {
 	background-size: 810px;
 	background-position: center 70%;
 	height: 200px;
 	}
-
-	#logo {height: 30px;}
-
-	h1 {font-size: 1.5em;}
+	#logo {
+		height: 30px;
+	}
+	h1 {font-size: 2em;}
 	.l3 p {font-size: 1em;}
 	#banner_inset {width: 100%}
-	#page nav {
+	#page #nav {
 		position: inherit;
 		padding: 15px 0px 1px 0px;
 		text-align: left;
 	}
-	#page nav a {
+	#page #nav a {
 		height: auto;
 		padding: 7px 10px 7px 10px;
 		margin: 0px 10px 5px 10px;
@@ -147,39 +171,8 @@ nav a:hover {
 		display: block;
 		background: hsl(0, 0%, 30%) url(../images/mobile_link_arrow.png) no-repeat right 50%;
 	}
-	#page nav a:hover { color: #fff; background-color: hsl(0, 0%, 20%); }
-	#page footer { font-size: .8em; }
-}
-
-/* Medium Screen Rules */
-@media screen and (min-width: 501px) and (max-width: 800px) {
-	h1 {font-size: 2em;}
-	.l3 p {font-size: 1.2em;}
-	#banner_inset {width: 80%;}
-	#banner_home {height: 225px;}
-
-	#logo {height: 50px;}
-
-/*	#page nav {
-		position: inherit;
-		padding: 15px 0px 1px 0px;
-		text-align: left;
+	#page #nav a:hover {
+		color: #fff;
+		background-color: hsl(0, 0%, 20%);
 	}
-	#page nav a {
-		height: 25px;
-		width: 30.5%;
-		padding: 5px 5px 5px 5px;
-		margin: 0px 0px 3px 0px;
-		font-weight: bold;
-		font-size: 1em;
-		display: inline-block;
-		background: hsl(0, 0%, 30%) url(../images/mobile_link_arrow.png) no-repeat right 50%;
-	}
-	#page nav a:hover { color: #fff; background-color: hsl(0, 0%, 20%); }*/
-	#page footer { font-size: .8em; }
-}
-
-/* Large Screen Rules */
-@media screen and (min-width: 801px) and (max-width: 10000px) {
-	
 }
