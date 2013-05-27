@@ -155,7 +155,7 @@ nav a:hover {
 @media screen and (min-width: 501px) and (max-width: 800px) {
 	h1 {font-size: 2em;}
 	.l3 p {font-size: 1.2em;}
-	#banner_inset {width: 60%}
+	#banner_inset {width: 80%;}
 	#banner_home {height: 225px;}
 
 	#logo {height: 50px;}
