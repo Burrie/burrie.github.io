@@ -1,4 +1,4 @@
 TODO
 
-export logo as .svg
 get images to replace "green-pink.jpg"
+make site somewhat IE 8 compatable (use burriecubed_ie.css)

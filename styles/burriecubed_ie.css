@@ -4,5 +4,5 @@
 
 /* Style overrides for Internet Explorer 6, 7, 8 */
 
-.page nav a { background-color: none; }
-.page nav a:hover { background-color: #682209; }
+#page nav a { background-color: none; }
+#page nav a:hover { background-color: #682209; }
