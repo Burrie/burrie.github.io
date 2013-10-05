@@ -110,14 +110,14 @@ footer {
 /*Content*/
 
 #banner_home {
-	background-image: url(../images/hero_red.png);
+	background-image: url(../images/hero_red.jpg);
 	background-size: 100%;
 	background-position: center 70%;
 	height: 300px;
 }
 
 #banner {
-	background-image: url(../images/hero_red.png);
+	background-image: url(../images/hero_red.jpg);
 	background-size: 100%;
 	background-position: center 70%;
 	height: 150px;
@@ -152,6 +152,8 @@ footer {
 	}
 	#banner_home {
 		height: 225px;
+		background-size: 810px;
+		background-position: center 70%;
 	}
 	#banner_inset {
 		width: 80%;
@@ -164,9 +166,9 @@ footer {
 		height: 100px;
 	}
 	#banner_home {
-	background-size: 810px;
-	background-position: center 70%;
-	height: 200px;
+		height: 200px;
+		background-size: 810px;
+		background-position: center 70%;
 	}
 	#logo {
 		height: 30px;
