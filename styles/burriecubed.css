@@ -110,14 +110,14 @@ footer {
 /*Content*/
 
 #banner_home {
-	background-image: url(../images/green-pink.jpg);
+	background-image: url(../images/hero_red.png);
 	background-size: 100%;
 	background-position: center 70%;
 	height: 300px;
 }
 
 #banner {
-	background-image: url(../images/green-pink.jpg);
+	background-image: url(../images/hero_red.png);
 	background-size: 100%;
 	background-position: center 70%;
 	height: 150px;
