@@ -129,7 +129,9 @@ footer {
 	background-color: hsl(0, 0%, 95%);
 }
 
-
+.clear {
+	margin: 20px 0;
+}
 /* Rules Sensitive to Screen Size */
 
 
