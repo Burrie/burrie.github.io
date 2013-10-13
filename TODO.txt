@@ -1,4 +1,4 @@
 TODO
 
-get images to replace "green-pink.jpg"
-make site somewhat IE 8 compatable (use burriecubed_ie.css)
+impliment bootstrap and html5boilerplate
+impliment an lightbox for the picture (& equipment) pages
