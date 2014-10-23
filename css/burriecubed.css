@@ -1,0 +1,103 @@
+html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+*,*:before,*:after{box-sizing:inherit;}
+body{font:normal normal 400 1em/1 'Roboto',sans-serif;background-color:#333;margin:0;padding:0;}
+.inner{max-width:1000px;margin:0 auto;}
+.clear{clear:both;}
+.group:after{content:"";display:table;clear:both;}
+.center{display:table;margin:0 auto;}
+section{margin:0;padding:0;display:block;}
+.icon{max-width:100%;}
+
+h1{font-size:3em;font-weight:100;color:#666;margin:0;padding:0;}
+h2{font-size:2em;color:#666;margin:0;padding:0;}
+a{color:#777;text-decoration:none;}
+a:hover,a:active,a:focus{text-decoration:underline;}
+a img{outline:none;border:none;}
+
+header{background-color:#333;}
+
+.horizontalNav ul{display:block;margin:0 auto;padding:0;}
+.horizontalNav li{display:block;margin:0;padding:0;float:left;width:33%;}
+.horizontalNav a{display:block;margin:0;padding:0;color:white;text-align:center;}
+
+.logo{display:block;margin:0 auto;position:relative;}
+.logo:hover{text-decoration:none;}
+.logo .icon{display:inline-block;fill:white;fill-rule:nonzero;vertical-align:top;padding:7.5px;height:100px;margin:0;}
+.logo .icon.logoText{position:absolute;left:0;top:0;}
+.logo .icon.logoIcon{margin:0 auto;display:block;}
+
+.horizontalNav.siteNav a:hover,
+.horizontalNav.siteNav a:active,
+.horizontalNav.siteNav a:focus{background-color:#4D4D4D;color:#fff;text-decoration:none;}
+
+.bx-wrapper img {max-width:100%;display:block;}
+.bxslider{margin:0;padding:0;border: none;}
+
+.photoGallery a{display:block;float:left;height:auto;}
+.photoGallery a img{display:block;width:100%;height:auto;}
+
+#mainContent{background-color:#f2f2f2;}
+#contact{background-color:#f2f2f2;padding:5%;min-height:75vh;}
+#contact p{margin:0;padding:.5em 0;}
+
+@media (min-width:601px){
+  .menu-link{display:none;}
+  .logo .icon.logoIcon{width:112px;height:100px;}
+  .logo .icon.logoText{width:314px;}
+  .horizontalNav.siteNav a{padding:1em;}
+  nav{background-color:#666;}
+  .welcomeSlide{background:url(../images/hero_red.jpg) center 0/100%;padding:5%;}
+  .welcomeSlide h1{color:#bbb;display:block;padding:.0;}
+  .welcomeSlide p{margin:0;padding:.5em;color:#fff;}
+  #mainContent .inner{padding:4em 0;}
+  #photo .inner{padding-bottom:30px;}
+  #contact h2, #photo h2{display:block;padding:.5em 0;font-weight:100;color:white;font-size:3em;}
+  #contact h2{color:black;}
+  .photoGallery a{width:25%;}
+  .photoGallery a img{padding:5px;}
+  .envelope{margin:0 auto;display:block;}
+  a.envelope{padding:5%;}
+}
+@media (max-width:999px) and (min-width:601px){
+  .logo .icon.logoIcon{margin:0;display:block;position:absolute;top:0;right:0;}
+  #mainContent .inner{padding:5%;}
+  .logo{display:block;width:100%;height:100px;}
+  #photo h2{padding-left:5%;}
+}
+@media (max-width:750px) and (min-width:501px){
+  .photoGallery a{width:33%;}
+  .photoGallery a img{padding:2px;}
+}
+
+@media (max-width:600px){
+  h1,h2,h3{text-align:center;}
+  header{position:fixed;top:0;width:100%;}
+  nav{background-color:none;}
+  .menu-link{display:block;position:fixed;top:0;left:0;}
+  .menu-link .icon.navButton{width:40px;height:40px;padding:7.5px;fill:white;}
+
+  .horizontalNav.siteNav a{padding:.5em 1em;text-align:center;}
+  .js nav.horizontalNav{max-height:0;overflow:hidden;transition:max-height .25s ease;}
+  .js nav.horizontalNav.active{max-height:32px;}
+  
+  .logo{width:40px;height:40x;}
+  .logo .icon.logoIcon{max-width:45px;height:40px;margin:0;}
+  .logo .icon.logoText{display:none;}
+  
+  #banner{margin-top:40px;text-align:center;}
+  .welcomeSlide{background:url(../images/mobileLaserBackground.jpg) center;padding:5%;}
+  .welcomeSlide h1{color:#bbb;font-size:14vw;display:block;padding:5%;}
+  .welcomeSlide p{margin:0;padding:2%;color:#fff;}
+  
+  #mainContent{padding:5%;}
+  #mainContent h2{font-size:6.5vw;}
+  
+  #photo h2{display:block;padding:1em;font-weight:100;color:white;font-size:11vw;}
+  .envelope{margin:0 auto;display:block;}
+  a.envelope{padding:10% 5%;}
+}
+@media (max-width:500px){
+  .photoGallery a{width:50%;}
+  .photoGallery a img{padding:2px;}
+  .welcomeSlide p{padding:5%;}
+}

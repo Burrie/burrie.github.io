@@ -1,4 +1,0 @@
-TODO
-
-impliment bootstrap and html5boilerplate
-impliment an lightbox for the picture (& equipment) pages
