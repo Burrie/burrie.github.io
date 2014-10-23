@@ -90,6 +90,7 @@ header{background-color:#333;}
   .welcomeSlide p{margin:0;padding:2%;color:#fff;}
   
   #mainContent{padding:5%;}
+  .E404 #mainContent{margin-top:40px;}
   #mainContent h2{font-size:6.5vw;}
   
   #photo h2{display:block;padding:1em;font-weight:100;color:white;font-size:11vw;}
