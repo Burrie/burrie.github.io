@@ -44,23 +44,23 @@ header{background-color:#333;}
 #contact{background-color:#f2f2f2;padding:5%;min-height:75vh;}
 #contact p{margin:0;padding:.5em 0;}
 
-  .menu-link{display:none;}
-  .logo .icon.logoIcon{width:112px;height:100px;}
-  .logo .icon.logoText{width:314px;}
-  .horizontalNav.siteNav a{padding:1em;}
-  nav{background-color:#666;}
-  .welcomeSlide{background:url(../images/hero_red.jpg) center 0/100%;padding:5%;}
-  .welcomeSlide h1{display:block;}
-  .welcomeSlide p{margin:0;padding:.5em 0;color:#ccc;line-height: 1.25;}
-  .welcomeSlide a{color:white;font-weight: bold;}
-  #mainContent .inner{padding:4em 0;}
-  #photo .inner{padding-bottom:30px;}
-  #contact h2, #photo h2{display:block;padding:.5em 0;font-weight:100;color:white;font-size:3em;}
-  #contact h2{color:black;}
-  .photoGallery a{width:25%;}
-  .photoGallery a img{padding:5px;}
-  .envelope{margin:0 auto;display:block;}
-  a.envelope{padding:5%;}
+.menu-link{display:none;}
+.logo .icon.logoIcon{width:112px;height:100px;}
+.logo .icon.logoText{width:314px;}
+.horizontalNav.siteNav a{padding:1em;}
+nav{background-color:#666;}
+.welcomeSlide{background:url(../images/hero_red.jpg) center 0/100%;padding:5%;}
+.welcomeSlide h1{display:block;}
+.welcomeSlide p{margin:0;padding:.5em 0;color:#ccc;line-height: 1.25;}
+.welcomeSlide a{color:white;font-weight: bold;}
+#mainContent .inner{padding:4em 0;}
+#photo .inner{padding-bottom:30px;}
+#contact h2, #photo h2{display:block;padding:.5em 0;font-weight:100;color:white;font-size:3em;}
+#contact h2{color:black;}
+.photoGallery a{width:25%;}
+.photoGallery a img{padding:5px;}
+.envelope{margin:0 auto;display:block;}
+a.envelope{padding:5%;}
 @media (max-width:999px) and (min-width:601px){
   .logo .icon.logoIcon{margin:0;display:block;position:absolute;top:0;right:0;}
   #mainContent .inner{padding:5%;}
@@ -75,16 +75,16 @@ header{background-color:#333;}
 @media (max-width:600px){
   h1,h2,h3{text-align:center;}
   header{position:fixed;top:0;width:100%;}
-  nav{background-color:none;}
+  nav{background-color:#333;}
   .menu-link{display:block;position:fixed;top:0;left:0;}
-  .menu-link .icon.navButton{width:40px;height:40px;padding:7.5px;fill:white;}
+  .menu-link .icon.navButton{width:50px;height:50px;padding:7.5px;fill:white;}
 
-  .horizontalNav.siteNav a{padding:.5em 1em;text-align:center;}
+  .horizontalNav.siteNav a{text-align:center;}
   .js nav.horizontalNav{max-height:0;overflow:hidden;transition:max-height .25s ease;}
-  .js nav.horizontalNav.active{max-height:32px;}
+  .js nav.horizontalNav.active{max-height:48px;}
   
-  .logo{width:40px;height:40x;}
-  .logo .icon.logoIcon{max-width:45px;height:40px;margin:0;}
+  .logo{width:50px;height:50x;}
+  .logo .icon.logoIcon{max-width:55px;height:50px;margin:0;}
   .logo .icon.logoText{display:none;}
   
   #banner{margin-top:40px;text-align:center;}
