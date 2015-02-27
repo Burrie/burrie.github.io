@@ -77,7 +77,7 @@ a.envelope{padding:5%;}
   header{position:fixed;top:0;width:100%;}
   nav{background-color:#333;}
   .menu-link{display:block;position:fixed;top:0;left:0;}
-  .menu-link .icon.navButton{width:50px;height:50px;padding:7.5px;fill:white;}
+  .menu-link .icon.navButton{width:50px;height:50px;padding:10px;fill:white;}
 
   .horizontalNav.siteNav a{text-align:center;}
   .js nav.horizontalNav{max-height:0;overflow:hidden;transition:max-height .25s ease;}
