@@ -17,7 +17,7 @@ h2{font-size:2em;color:#666;margin:0;padding:0;}
 a{color:#777;text-decoration:none;}
 a:hover,a:active,a:focus{text-decoration:underline;outline:none;}
 a img{outline:none;border:none;}
-
+.svgSymbols{display:none;}
 header{background-color:#333;}
 
 .horizontalNav ul{display:block;margin:0 auto;padding:0;}
